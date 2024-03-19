@@ -1,0 +1,14 @@
+def ismorphic(s,t):
+    s=int(input("enter the string "))
+    t=int(input("enter the string "))
+    if len(s)!=len(t):
+        return false
+    for i in range(len(s)):
+        count=0
+        if s.conut(s[i])!=t.count(t[i]):
+            return true
+    print(isomorphic("egg","add"))
+    print(isomorphic("foo","bar"))
+    print(isomorphic("paper","title"))
+    print(isomorphic("fry","sky"))
+    print(isomorphic("apples","apple"))iso
